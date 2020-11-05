@@ -1,0 +1,41 @@
+<!-- index.html - Lab 5 - Oskar Ciebien 
+    Data Representation & Querying -->
+
+<!-- HTML 5 -->
+<!DOCTYPE html>
+
+<html>
+
+<body>
+    <h1>Welcome to my web site!</h1>
+
+    <!-- Form - Add Name (GET) -->
+    <form action="/name" method="GET">
+        First Name:
+        <br>
+        <input type="text" name="firstname" value="Oskar">
+        <br>
+        Last Name:
+        <br>
+        <input type="text" name="lastname" value="Ciebien">
+        <br>
+        <input type="submit" value="Add Name">
+    </form>
+
+    <!-- Form - Add Name (POST) -->
+    <h3>Post Method</h3>
+    <form action="/name" method="POST">
+        First Name:
+        <br>
+        <input type="text" name="firstname" value="Oskar">
+        <br>
+        Last Name:
+        <br>
+        <input type="text" name="lastname" value="Ciebien">
+        <br>
+        <input type="submit" value="Add Name">
+    </form>
+
+</body>
+
+</html>
